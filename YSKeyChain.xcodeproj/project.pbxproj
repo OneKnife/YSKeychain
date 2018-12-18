@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160608B021C7B67900594CC1 /* YSKeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 160608AF21C7B67900594CC1 /* YSKeychainHelper.swift */; };
 		163EC02621C0FA9200DD8775 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EC02521C0FA9200DD8775 /* AppDelegate.swift */; };
 		163EC02821C0FA9200DD8775 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EC02721C0FA9200DD8775 /* ViewController.swift */; };
 		163EC02B21C0FA9200DD8775 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163EC02921C0FA9200DD8775 /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		163EC03021C0FA9300DD8775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 163EC02E21C0FA9300DD8775 /* LaunchScreen.storyboard */; };
 		163EC03B21C0FA9300DD8775 /* YSKeyChainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EC03A21C0FA9300DD8775 /* YSKeyChainTests.swift */; };
 		163EC04621C0FA9300DD8775 /* YSKeyChainUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EC04521C0FA9300DD8775 /* YSKeyChainUITests.swift */; };
+		163EC05921C1080900DD8775 /* YSKeychainConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EC05621C1080900DD8775 /* YSKeychainConfiguration.swift */; };
+		163EC05C21C108EF00DD8775 /* YSKeychainPasswordItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 163EC05B21C108EF00DD8775 /* YSKeychainPasswordItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		160608AF21C7B67900594CC1 /* YSKeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSKeychainHelper.swift; sourceTree = "<group>"; };
 		163EC02221C0FA9200DD8775 /* YSKeyChain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSKeyChain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		163EC02521C0FA9200DD8775 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		163EC02721C0FA9200DD8775 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		163EC04121C0FA9300DD8775 /* YSKeyChainUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSKeyChainUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		163EC04521C0FA9300DD8775 /* YSKeyChainUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSKeyChainUITests.swift; sourceTree = "<group>"; };
 		163EC04721C0FA9300DD8775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		163EC05621C1080900DD8775 /* YSKeychainConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSKeychainConfiguration.swift; sourceTree = "<group>"; };
+		163EC05B21C108EF00DD8775 /* YSKeychainPasswordItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YSKeychainPasswordItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +105,9 @@
 			children = (
 				163EC02521C0FA9200DD8775 /* AppDelegate.swift */,
 				163EC02721C0FA9200DD8775 /* ViewController.swift */,
+				163EC05621C1080900DD8775 /* YSKeychainConfiguration.swift */,
+				163EC05B21C108EF00DD8775 /* YSKeychainPasswordItem.swift */,
+				160608AF21C7B67900594CC1 /* YSKeychainHelper.swift */,
 				163EC02921C0FA9200DD8775 /* Main.storyboard */,
 				163EC02C21C0FA9300DD8775 /* Assets.xcassets */,
 				163EC02E21C0FA9300DD8775 /* LaunchScreen.storyboard */,
@@ -257,6 +266,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				163EC02821C0FA9200DD8775 /* ViewController.swift in Sources */,
+				163EC05C21C108EF00DD8775 /* YSKeychainPasswordItem.swift in Sources */,
+				160608B021C7B67900594CC1 /* YSKeychainHelper.swift in Sources */,
+				163EC05921C1080900DD8775 /* YSKeychainConfiguration.swift in Sources */,
 				163EC02621C0FA9200DD8775 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
