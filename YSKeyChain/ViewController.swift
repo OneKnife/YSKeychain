@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     
     @objc func saveButtonTapped() {
         if let text = textfield.text {
-            let result = YSKeychainHelper.saveApplicationInfo(with: "YourSavedKey", password: text)
+            let result = YSKeychainHelper.saveInfo(with: "YourSavedKey", password: text)
             debugPrint(result ? "保存成功" : "保存失败")
         }else {
             debugPrint("密码为空")

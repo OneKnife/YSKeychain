@@ -12,7 +12,7 @@ let kKeychainServiceApplication = "kKeychainServiceApplication"
 class YSKeychainHelper {
     
     /// 保存一条应用信息
-    @discardableResult static func saveApplicationInfo(with key: String, password: String) -> Bool{
+    @discardableResult static func saveInfo(with key: String, password: String) -> Bool{
         let keyChainItem = YSKeychainPasswordItem.init(service: kKeychainServiceApplication, account: key)
         do {
             try keyChainItem.savePassword(password)
